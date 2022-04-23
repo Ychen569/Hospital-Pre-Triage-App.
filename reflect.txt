@@ -1,0 +1,10 @@
+In this project, I practiced:
+1. Allocated and deallocated memory  
+2.Used interface class and pure virtual functions, abstract base class and derived class with virtual functions to design the program structure.
+3.Used template function to deal with an argument with different types
+4.Operator function makes my coding more virtual, short and clear.
+5.read and write with file
+I met some problems:
+1.Read things from the file. In the beginning, I cannot code correctly with the reading file. Then I use istr/cin to read one char or number. However, for string, getline�is better. If setting a string then use “c_str” flag change it to cstring, not only I can easily coding them with length and copy methods, but I can catch the length of string as much as I want.
+2.Used the abstract class pointers to set the reference of the derived class. I could not find a way to connect the object of abstract class and derived class. Then I noticed we can use an abstract class pointer to allocate a derived class which means that pointer points to a derived class object. In addition, virtual functions make sure to invoke the latest version of functions. All of them together, the derived class looks like insert the new class methods into abstract class pointers.
+All in all, I learned a lot from this hospital's registration system project. The logic of the project is now complex. The biggest part is to input and output the register information in the file and screen. However, the most interesting part for me is using inheritance to design the program structure.   
